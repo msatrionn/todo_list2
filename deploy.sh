@@ -1,17 +1,14 @@
 #!/usr/bin/env sh
-
-set -e 
-
-npm run build
-
+# abort on errors
+set -e
+# build
+yarn run build
+# navigate into the build output directory
 cd dist
-
+# if you are deploying to a custom domain
+# echo 'www.example.com' > CNAME
 git init
- 
-git add
-
-git commit -m "New deployment"
-
-git commit -m "New deployment"
-
-git push -f git@github.com:msatrionn/todo_list.git master:gh-pages
+git add -A
+git commit -m 'deploy'
+git push -f git@github.com:username/hello-world.git master:gh-pages
+cd -
