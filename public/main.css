@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+body{
+  font-family: "Poppins",sans-serif;
+  background: #f4f4f4;
+}
+.navbar{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 105px;
+  background: #16ABF8;
+}
+.nav-title{
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+}
+.home{
+  display: flex;
+  margin: 0 auto;
+  margin-top: 110px;
+  flex-wrap: wrap;
+  width: 71%;
+  justify-content: space-between;
+}
+.container{
+  margin: 0 auto;
+  width: 70%;
+}
+.activity{
+  padding:0px 0px;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+}
+.activity-img{
+  height: 550px;
+  width: 550px;
+}
+.action-svg{
+  height: 30px;
+  width: 30px;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+.button-tambah{
+  cursor: pointer;
+  border: none;
+  background: #16ABF8;
+  color: #fff;
+  border-radius: 50px;
+  height: 50px;
+  width: 150px;
+  font-family: "Poppins",sans-serif;
+
+}
+.button-tambah-disabled{
+  cursor: pointer;
+  border: none;
+  background: #16ABF8;
+  opacity: 0.2;
+  color: #fff;
+  border-radius: 50px;
+  height: 50px;
+  width: 150px;
+  font-family: "Poppins",sans-serif;
+
+}
+.action-svg-img{
+  cursor: pointer;
+}
+.button-filter{
+  cursor: pointer;
+  border: none;
+  background: none;
+  border: 1.5px solid #cec3c3c4;
+  color: #fff;
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  font-family: "Poppins",sans-serif;
+  margin-right: 20px;
+
+}
+.container-top{
+  margin-top: 40px;
+}
+.plus {
+--b: 2px; /* the thickness */
+width: 13px; /* the size */
+aspect-ratio: 1;
+border: none; /* the outer space */
+background:
+  conic-gradient(from 90deg at var(--b) var(--b),#000 90deg,#fff 0)
+  calc(100% + var(--b)/2) calc(100% + var(--b)/2)/
+  calc(50%  + var(--b))   calc(50%  + var(--b));
+display: inline-block;
+}
+.alt {
+background:
+  conic-gradient(from 90deg at var(--b) var(--b),#16ABF8 90deg,#fff 0)
+  calc(100% + var(--b)/2) calc(100% + var(--b)/2)/
+  calc(50%  + var(--b))   calc(50%  + var(--b));
+}
+.color{
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+  background: red;
+  margin-left: 10px;
+}
+.delete-icon{
+  height: 150px;
+  width: 150px;
+}
